@@ -1,15 +1,11 @@
-'use strict';
 
 //★★★DOM:関数イベントに必要なHTMLの要素からとってくる★★★
 //DOM:HTMLタグに紐づける変数宣言。
-const givenNumbers = document.getElementById("section");
+const givenNumbers = document.getElementById("tableSection");
 const checkButton = document.getElementById("checkButton");
 
 window.onload = function() {
-  let givenNumbers = 1;
-  givenNumbers = Math.floor(Math.random() * 9);
+  givenNumbers = Math.floor(Math.random() * 9)+1;
   console.log(givenNumbers);//ok
-  document.getElementById("section").innerHTML = givenNumbers;
+  document.getElementById("tableSection").innerHTML = givenNumbers;
 }
-
-//0が表示されてしまう。作成中。
