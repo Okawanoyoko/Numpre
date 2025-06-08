@@ -1,11 +1,14 @@
-'use strict'
+'use strict';
 
-//１つ１つに入れたい
+//画面を開いた瞬間にデフォルトで設定されているボードを作る
+//まずすべてのセルにランダムに数字を割り振る ループ文考え中
 window.onload = function() {
-  let givenNumbers = Math.floor(Math.random() * 9)+1; //1-9をランダムに取得＝givenNumbers
+  let givenNumbers = Math.floor(Math.random() * 9)+1;
   console.log(givenNumbers);//ok
-  let targetCell = document.querySelector(".tableSection td"); //htmlの該当箇所を取り込む
-  targetCell.innerHTML = givenNumbers; // 払い出す
+  let targetCell = document.querySelector(".tableSection td");
+  targetCell.innerHTML = givenNumbers; // セルにランダムな数値を代入
 }
 
-//1つ１つにまずランダムに入れて、後で消す
+//上記からランダムに数字を消す。
+//レベルが上がるごとにセクションが増えていく。
+//増え方のロジックは１，９，１８、３６？
