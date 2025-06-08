@@ -8,3 +8,4 @@ window.onload = function() {
   targetCell.innerHTML = givenNumbers; // 払い出す
 }
 
+//1つ１つにまずランダムに入れて、後で消す
