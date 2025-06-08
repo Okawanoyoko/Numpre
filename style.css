@@ -2,16 +2,21 @@
 body {
   display: flex;
   justify-content: center;
+  background-image: url("https://picsum.photos/1000?grayscale");
 }
 
 
+
 .tableSection {
+  margin-top:30px;
   font-size: 40px;
   width: 600px;
   height: 600px;
-    border: solid;
+  border: solid;
   border-color: black;
   border-width: 10px;
+  background-color: rgba(216, 199, 199, 0.5)
+  
 }
 
 tr {
