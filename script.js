@@ -1,11 +1,10 @@
+'use strict'
 
-//★★★DOM:関数イベントに必要なHTMLの要素からとってくる★★★
-//DOM:HTMLタグに紐づける変数宣言。
-const givenNumbers = document.getElementById("tableSection");
-const checkButton = document.getElementById("checkButton");
-
+//１つ１つに入れたい
 window.onload = function() {
-  givenNumbers = Math.floor(Math.random() * 9)+1;
+  let givenNumbers = Math.floor(Math.random() * 9)+1; //1-9をランダムに取得＝givenNumbers
   console.log(givenNumbers);//ok
-  document.getElementById("tableSection").innerHTML = givenNumbers;
+  let targetCell = document.querySelector(".tableSection td"); //htmlの該当箇所を取り込む
+  targetCell.innerHTML = givenNumbers; // 払い出す
 }
+
