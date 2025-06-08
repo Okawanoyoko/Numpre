@@ -1,0 +1,38 @@
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+
+.tableSection {
+  font-size: 40px;
+  width: 600px;
+  height: 600px;
+    border: solid;
+  border-color: black;
+  border-width: 10px;
+}
+
+tr {
+
+  width: 200px;
+  height: 200px;
+}
+
+td {
+    border: solid;
+  border-color: black;
+  border-width: 10px;
+  text-align: center;
+
+}
+
+.arrow {
+  font-size: 100px;
+  display: flex;
+  align-items: center; 
+  margin-left:30px;
+  margin-right:30px;
+
+}
