@@ -10,6 +10,9 @@ body {
 #table {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
+  width:800px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 #grid1, #grid2, #grid3, #grid4, #grid5, #grid6, #grid7, #grid8, #grid9 {
@@ -27,4 +30,8 @@ body {
 
 #areaB {
   background-color: yellow;
+}
+
+arrow {
+  ?????
 }
