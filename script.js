@@ -16,7 +16,7 @@
 //     } 
 // };
 
-//新作。
+//新作。縦横軸で重複発生
 window.onload = function giveNumber() {
    let tables = document.querySelectorAll("#grid1, #grid2, #grid3, #grid4, #grid5, #grid6, #grid7, #grid8, #grid9");
 
